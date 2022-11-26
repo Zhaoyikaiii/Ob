@@ -10,4 +10,4 @@ func TestIncrease(t *testing.T) {
 ```
 
 go test ./... -v 运行测试
-go test 命令扫描所有
+go test 命令扫描所有 `*_test.go` 为结尾的文件，管理是将测试代码与zheng's

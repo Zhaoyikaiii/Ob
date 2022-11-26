@@ -1,5 +1,15 @@
 [
   "obsidian-git",
   "various-complements",
-  "quickadd"
+  "quickadd",
+  "obsidian-hypothesis-plugin",
+  "obsidian-reveal-active-file",
+  "obsidian-better-command-palette",
+  "cmenu-plugin",
+  "easy-typing-obsidian",
+  "hotkeysplus-obsidian",
+  "obsidian-kanban",
+  "link-favicon",
+  "remember-cursor-position",
+  "templater-obsidian"
 ]
