@@ -22,8 +22,12 @@ if v:= x - 100 ; v < 0 {
 
 ```go
 switch var1 {
-	case var1: //空分支
-	case var2 :
-		fallthrough
+	case val1: //空分支
+	case val2 :
+		fallthrough // 执行case3中的f()
+	case val3:
+		f()
+	default://默认分支
+		...
 }
 ```
