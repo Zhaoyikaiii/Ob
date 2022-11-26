@@ -52,6 +52,7 @@ for _,word := range words {
 
 ```go
 func main() {
+	// 第一个参数表示要取的参数key,第二个参数表示的是这个参数的默认值，第三个参数是一个提示是usage
 	name := flag.String("name","world","specify the name you want to say hi")
 	flag.Parse()
 	fmt.Println("os args is:",os.Args)
