@@ -35,5 +35,9 @@ version
 	print go version
 vet
 	report likely mistakes in packages
-
-
+	- Print-format 错误，检查类型不匹配的 print 
+		- `str := "hello world!"`
+		- `fmt. Printf ("%d\n", str)`
+	- Boolean 错误，检查一直为 true, false 或者冗余的表达式
+		- `fmt.Println(i != 0 || i != 1)
+	- Range 循环，比如ru'xia

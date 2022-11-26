@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Go/Go test.md",
+                "file": "Language/Go/Go基本命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Go/Go test.md",
+                "file": "Language/Go/Go基本命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Go/Go test.md",
+                "file": "Language/Go/Go基本命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Go/Go test.md"
+                "file": "Language/Go/Go基本命令.md"
               }
             }
           }
@@ -138,5 +138,8 @@
     "collapsed": true
   },
   "active": "8c0eb6040439210b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Language/Go/为什么要需要Go语言.md",
+    "Language/Go/Go test.md"
+  ]
 }
