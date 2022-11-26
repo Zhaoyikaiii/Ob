@@ -157,10 +157,12 @@ a = append(b,1) //向b中插入一个元素，会导致b的地址发生变化返
 ```go
 mySlice :=[]int{10,20,30,40,50}
 for _,value := range mySlice {
+	//这里的value相当于一个临时变量，指向了这个数组遍历的值，go中是值传递
 	value *= 2
 }
 fmt.Printf("mySlice %+v\n",mySlice)
 for index,_ :=range mySlice {
+	//需要通过下标去修改值
 	mySlice[index] *= 2
 }
 ```
