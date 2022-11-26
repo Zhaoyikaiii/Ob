@@ -46,4 +46,19 @@ for i := 0 ; i < 10 ; i++ {
 }
 ```
 
-- 初始化语句和后置语句是可选的，此场景与 while 等价 (Go 语言bu'zhi'chi)
+- 初始化语句和后置语句是可选的，此场景与 while 等价 (Go 语言不支持 while)
+```go
+for ;sum < 1000； {
+	sum += sum
+}
+```
+
+- 无限循环
+
+```go
+for {
+	if condition1 {
+		break
+	}
+}
+```
