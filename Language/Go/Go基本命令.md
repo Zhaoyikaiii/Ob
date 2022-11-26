@@ -114,4 +114,13 @@ func main() {
 - 切片是对数组一个连续片段的引用
 - 数组定义中不指定长度即位切片
 	- `var identifier []type`
-- 切片在未初始化
+- 切片在未初始化之前默认为 nil, 长度为 0
+```go
+func main() {
+	myArray :=[5]int{1,2,3,4,5}
+	mySlice := myArray[1:3]
+	fmt.Printf("mySlice %+v\n",mySlice)
+	fullSlice := myArray[:]
+	remove3rdItem := deleteItem(fullSlice,2)
+}
+```
