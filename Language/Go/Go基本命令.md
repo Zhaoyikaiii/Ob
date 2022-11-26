@@ -196,5 +196,16 @@ func main() {
 	- 指针变量的值为内存地址
 	- 未赋值的指针为 nil
 ```go
-type MyType struct
+type MyType struct {
+	Name string 
+}
+
+func printMyType(t *MyType) {
+	println(t.Name)
+}
+
+func main() {
+	t := MyType{Name:"test"}
+	printMyType(&t)
+}
 ```
