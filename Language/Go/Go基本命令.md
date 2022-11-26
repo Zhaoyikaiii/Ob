@@ -136,5 +136,15 @@ func deleteItem(slice []int,index int)[]int {
 - Make 返回第一个元素，可预设内存空间，避免未来的内存拷贝
 - 示例:
 ```go
-mySlice1 := 
+mySlice1 := new([]int)
+mySlice2 := new([]int,0)
+mySlice3 := make([]int,10)
+mySlice4 := make([]int,10,20)
+```
+
+### 关于切片的常见问题
+
+- 切片是 i 连续内存并且可以动态拓展，由此引发的问题？
+```go
+
 ```
