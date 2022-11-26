@@ -88,4 +88,10 @@ func main() {
 		- 一些关于数值的转换：
 			- `var i int = 42`
 			- `var f float64 = float64(i)`
-			- `var u uint = u`
+			- `var u uint = uint(f)`
+		- 或者，更加简单的形式:
+			- `i := 42`
+			- `f := float64(i)`
+			- `u := uint(f)`
+- 类型推导
+	- 在声明一个变量而不知道其类型时（即使用不带类型的 `:=` 语法或 `var :=` 表达）
