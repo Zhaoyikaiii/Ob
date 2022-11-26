@@ -128,5 +128,13 @@ func main() {
 func deleteItem(slice []int,index int)[]int {
 	return append(slice[:index],slice[index+1:]...)
 }
+```
 
+## Make 和 New
+
+- New 返回指针地址
+- Make 返回第一个元素，可预设内存空间，避免未来的内存拷贝
+- 示例:
+```go
+mySlice1 := 
 ```
