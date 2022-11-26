@@ -153,3 +153,9 @@ a = append(b,1)
 ```
 
 - 修改切片的值？
+```go
+mySlice :=[]int{10,20,30,40,50}
+for _,value := range mySlice {
+	value *= 2
+}
+```
