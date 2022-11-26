@@ -108,4 +108,10 @@ func main() {
 	- `var identifier [len]type`
 - 示例
 	- `myArray := [3]int{1,2,3}`
-	- 
+
+## 切片（slice）
+
+- 切片是对数组一个连续片段的引用
+- 数组定义中不指定长度即位切片
+	- `var identifier []type`
+- 切片在未初始化
