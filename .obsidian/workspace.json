@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1695d62059de3e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Go/Go的基本语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Language/Go/Go的基本语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Language/Go/Go的基本语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Go/Go基本命令.md"
+                "file": "Language/Go/Go的基本语法.md"
               }
             }
           }
@@ -137,8 +150,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8c0eb6040439210b",
+  "active": "c1695d62059de3e7",
   "lastOpenFiles": [
+    "Language/Go/Go基本命令.md",
     "Language/Go/为什么要需要Go语言.md",
     "Language/Go/Go test.md"
   ]
