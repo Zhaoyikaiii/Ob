@@ -11,6 +11,15 @@
     "totalArticles": 0,
     "totalHighlights": 0
   },
-  "groups": [],
-  "useDomainFolders": false
+  "groups": [
+    {
+      "id": "__world__",
+      "name": "Public",
+      "public": true,
+      "type": "open",
+      "selected": true
+    }
+  ],
+  "useDomainFolders": false,
+  "lastSyncDate": "2022-11-26T03:54:10.651Z"
 }
