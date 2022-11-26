@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2022-11-26 1.md",
+                "file": "Daily/2022-11-26.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2022-11-26 1.md",
+                "file": "Language/Go/Go基本命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2022-11-26 1.md",
+                "file": "Language/Go/Go基本命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2022-11-26 1.md"
+                "file": "Language/Go/Go基本命令.md"
               }
             }
           }
@@ -151,6 +151,8 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Daily/2022-11-26.md",
+    "Daily/2022-11-26 1.md",
     "Language/Go/Go的基本语法.md",
     "Language/Go/Go基本命令.md",
     "Language/Go/为什么要需要Go语言.md",
