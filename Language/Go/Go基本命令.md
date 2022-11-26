@@ -180,5 +180,21 @@ func main() {
 	f := myFuncMap["funcA"]
 	fmt.Println(f())
 	value ,exist := myMap["a"]
+	if exist {
+		println(value)
+	}
+	for k,v := range myMap {
+		println(k,v)
+	}
 }
+```
+
+## 结构体和指针
+
+- 通过 `type ... struct` 关键字自定义结构体
+- Go 语言支持指针，但不支持指针运算
+	- 指针变量的值为内存地址
+	- 未赋值的指针为 nil
+```go
+type MyType struct
 ```
