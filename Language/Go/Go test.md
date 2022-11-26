@@ -8,3 +8,6 @@ func TestIncrease(t *testing.T) {
 	increase(1,2)
 }
 ```
+
+go test ./... -v 运行测试
+go test 命令扫描所有
