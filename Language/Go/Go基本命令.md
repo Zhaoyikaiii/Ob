@@ -149,7 +149,7 @@ mySlice4 := make([]int,10,20)
 a := []int
 b := []int{1,2,3}
 c := a
-a = append(b,1)
+a = append(b,1) //可能
 ```
 
 - 修改切片的值？
