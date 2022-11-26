@@ -148,8 +148,8 @@ mySlice4 := make([]int,10,20)
 ```go
 a := []int
 b := []int{1,2,3}
-c := a
-a = append(b,1) //可能
+c := a//初始化一个c使得它指向和a相同的地址
+a = append(b,1) //可能 
 ```
 
 - 修改切片的值？
