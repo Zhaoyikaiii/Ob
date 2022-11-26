@@ -34,10 +34,18 @@ tool
 version
 	print go version
 vet
-	report likely mistakes in packages
+	report likely mistakes in packages, 代码静态检查，发现可能的 bug 或者可疑的构造
 	- Print-format 错误，检查类型不匹配的 print 
 		- `str := "hello world!"`
 		- `fmt. Printf ("%d\n", str)`
 	- Boolean 错误，检查一直为 true, false 或者冗余的表达式
 		- `fmt.Println(i != 0 || i != 1)
-	- Range 循环，比如ru'xia
+	- Range 循环，比如如下代码主协程会先退出，go routine 无法被执行 
+```go
+words := [] stirng{"foo","bar","baz"}
+for _,word := range words {
+	go func() {
+		fmt.Println(word)
+	}()
+}
+```
