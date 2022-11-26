@@ -1,7 +1,7 @@
 {
   "SelectionEnhance": true,
   "IntrinsicSymbolPairs": false,
-  "BaseObEditEnhance": true,
+  "BaseObEditEnhance": false,
   "FW2HWEnhance": true,
   "AutoFormat": true,
   "ExcludeFiles": "",

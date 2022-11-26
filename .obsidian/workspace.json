@@ -15,6 +15,7 @@
               "state": {
                 "file": "Language/Go/Go基本命令.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -27,6 +28,7 @@
               "state": {
                 "file": "Daily/2022-11-26.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
