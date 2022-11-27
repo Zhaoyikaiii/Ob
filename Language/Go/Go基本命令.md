@@ -693,5 +693,14 @@ select {
 timer := time.NewTimer(time.Second)
 select {
 	//check normal channel
+	case <- ch:
+		fmt.Println('reveived from ch')
+	case <- timer.C:
+		fmt.Println("timeout waiting from channel ch")
 }
 ```
+
+## 上下文 Context
+
+- 查找是，取消操作或者一些异常情况，往往需要进行抢占操作胡总和中断后续操作。
+- 
