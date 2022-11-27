@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "5a229bbba92dddf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Go/Go语言进阶.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c1695d62059de3e7",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Language/Go/Go语言进阶.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Language/Go/Go语言进阶.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Go/Go基本命令.md"
+                "file": "Language/Go/Go语言进阶.md"
               }
             }
           }
@@ -151,14 +165,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dcdaf695f6762aff",
+  "active": "5a229bbba92dddf5",
   "lastOpenFiles": [
+    "Language/Go/Go基本命令.md",
     "Language/Go/Go环境配置.md",
     "Language/Go/Go的基本语法.md",
     "Language/Go/为什么要需要Go语言.md",
     "Daily/2022-11-27.md",
     "Daily/2022-11-26.md",
-    "Language/Go/Go基本命令.md",
     "Daily/2022-11-26 1.md",
     "Language/Go/Go test.md"
   ]

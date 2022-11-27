@@ -750,3 +750,33 @@ go process(ctx,100*time.Millisecond)
 <- ctx.Done()
 fmt.Println("main:",ctx.Err())
 ```
+
+```go
+func main() {
+	baseCtx := context.Background() // 这里创建了一个最顶层的context
+	ctx := context.WithValue(baseCtx,"a","b") //这里往baseCtx中放入了一个key为a,value为b的值
+	go func(c context.Context) {
+		fmt.Println(c.Value("a"))
+	}(ctx)//向这个goroutine放入了刚刚创建的context
+	timeoutCtx,cancel := context.WithTimeout(baseCtx,time.Second)
+	defer cancel()
+	go func(xtx context.Context) {
+		ticker := time.NewTicker(1 * time.Second)
+		for _ = range ticker.C {
+			select {
+				case <- ctx.Done():
+					fmt.Println("child process interrupt...")
+					return 
+				default:
+					fmt.Println("enter default")
+			}
+		}
+	}(timeoutCtx)
+	select {
+		case <- timeoutCtx.Done():
+			time.Sleep(1 * time.Second)
+			fmt.Prinln("main process exit")
+	}
+
+}
+```

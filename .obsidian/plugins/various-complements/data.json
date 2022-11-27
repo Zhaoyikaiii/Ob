@@ -122,8 +122,8 @@
     "return": {
       "return": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1669453994525
+          "count": 2,
+          "lastUpdated": 1669553990461
         }
       }
     },
@@ -250,8 +250,16 @@
     "Background": {
       "Background": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1669553484242
+          "count": 4,
+          "lastUpdated": 1669553772191
+        }
+      }
+    },
+    "timeoutCtx": {
+      "timeoutCtx": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669554011848
         }
       }
     }
