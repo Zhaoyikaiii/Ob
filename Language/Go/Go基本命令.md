@@ -381,3 +381,94 @@ fmt.Println("type:",t)
 v := reflect.ValueOf(myMap)
 fmt.Println("value:",v)
 ```
+
+### 基于 struct 的反射
+
+```go
+//struct
+myStruct := T{A:"a"}
+v1 := reflect.ValueOf(myStruct)
+for i := 0 ; i < v1.NumField(); i ++ {
+	fmt.Printf("Field: %d : %v\n",i,v1.Field(i))
+} 
+for i := 0; i < v1.NumMethod();i++ {
+	fmt.Printf("Method: %d : %v",i,v1.Method(i))
+}
+
+// 需要注意receive 是struct还是指针
+result := v1.Method(0).Call(nil)
+fmt.Println("result",result)
+```
+
+## Go 语言中的面向对象编程
+
+- 可见性控制
+	- public - 常量，变量，类型，接口，结构，函数等的名称大写
+	- Private - 非大写就只能在包内使用
+- 继承
+	- 通过组合实现，内嵌一个或多个 struct 
+- 多态
+	- 通过接口实现，通过接口定义方法集，编写多套实现
+
+## JSON 编解码
+
+- Unmarshal: 从 string 转换至 struct 
+```go
+func unmarshal2Struct(humanStr string)Human {
+	h := HUman{}
+	err := json.Unmarshal([]byte(humanStr),&h)
+	if err != nil {
+		println(err)
+	}
+	return h
+}
+```
+
+- Marshal: 从 struct 转换至 string 
+```go
+func marshal2JsonString(h Human) string {
+	h.Age = 30
+	updatedBytes,err := json.Marshal(&h)
+	if err != nil {
+		println(err)
+	}
+	return string(updatedBytes )
+}
+```
+
+- Json 包使用 map[stirng]interface{}和[]interface{}类型保存任意对象
+- 可通过如下逻辑解析任意 json
+```go
+var obj interface{}
+err := json.Unmarshal([]byte(humanStr),&obj)
+objMap,ok := obj.(map[string]interface{})
+for k,v := range objMap {
+	switch value := v.(type) {
+		case string:
+			fmt.Printf("type of %s is string,value is %v\n",k,value)
+		case interface{}:
+			fmt.Pintf("type of %s is interface{},value is %v\n",k,value)
+		default:
+			fmt.Print("type of %s is wrong,value %v\n",k,value)
+	}
+}
+```
+
+## 错误处理
+
+- Go 语言无内置 `exception` 机制，只提供 error 接口供定义错误
+```go
+type eror interface {
+	Error() string
+}
+```
+- 可通过 `errors.New` 或 `fmt.Errorf` 创建新的 `error`
+	- `var errNotFound error = errors.New("NotFount")`
+- 通常应用程序对 `error` 的处理大部分是判断 `error` 是否为 `nil`
+如需将 `error` 归类，通常交给应用程序自定义，比如 kubernetes 自定义了与 apiserver 狡猾的不同类型错误
+
+```go
+type StatusError struct {
+	ErrorStatus metav1.Status
+}
+```

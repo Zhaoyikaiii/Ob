@@ -130,8 +130,8 @@
     "string": {
       "string": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1669514167825
+          "count": 3,
+          "lastUpdated": 1669526235277
         }
       }
     },
@@ -164,6 +164,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1669517885969
+        }
+      }
+    },
+    "struct": {
+      "struct": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669526162195
+        }
+      }
+    },
+    "value": {
+      "value": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669527134065
         }
       }
     }
