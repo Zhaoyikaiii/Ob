@@ -307,3 +307,59 @@ func decrease(a,b int) {
 	println("decrease result is:",a-b)
 }
 ```
+
+## 闭包
+
+- 匿名函数
+	- 不能独立存在
+	- 可以赋值给其他变量
+		- `x := func(){}`
+	- 可以直接调用
+		- `func(x,y int){println(x+y)}(1,2)`
+	- 可作为函数返回值
+		- `func Add()(func(b int) int)`
+```go
+defer func() {
+	if r := recover(); r != nil {
+		println("recovered in FuncX")
+	}
+}()
+```
+
+## 方法
+
+- 方法：作用在接收者上的函数
+	- Func (recv receiver_type) methodName (parameter_list) (return_value_list)
+- 使用场景
+	- 很多场景下，函数需要的上下文可以保存在 receiver 属性中，通过定义 receiver 的方法，该方法可以直接访问 receiver 属性，减少参数传递需求
+```go
+func (s *Server)StartTLC() {
+	ifs.URL != "" {
+		panic("Server already started")
+	}
+	if s.client == nil {
+		s.client = &http.CLient{Transport: &http.Transport{}}
+	}
+}
+```
+
+## 传值还是传指针
+
+- Go 语言只有一种规则：传值
+- 函数内修改参数的值不会影像到函数外原始变量的值
+- 可以传递指针参数将变量地址传递给调用函数，Go 语言会复制该指针作为函数内的地址，但指向同一地址
+
+## 接口
+
+- 定义一组方法集合
+```go
+type IF interface {
+	Method1(param_list) return_type
+}
+```
+- 适用场景: Kubernetes 中有大量的接口抽象和多种实现
+- Struct 无需显示声明实现 interface, 只需直接实现方法
+- Struct 除实现 Interface 定义的接口外，还可以有额外的方法
+- 一个类型可以实现多个接口
+- Go 语言中接口不接受属性定义
+- 接口可以嵌套其他接口
