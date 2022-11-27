@@ -130,8 +130,32 @@
     "string": {
       "string": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669514167825
+        }
+      }
+    },
+    "service": {
+      "service": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1669454220352
+          "lastUpdated": 1669514155691
+        }
+      }
+    },
+    "ClusterIP": {
+      "ClusterIP": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669514256879
+        }
+      }
+    },
+    "package": {
+      "package": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669515060526
         }
       }
     }

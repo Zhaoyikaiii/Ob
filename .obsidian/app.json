@@ -2,6 +2,6 @@
   "attachmentFolderPath": "Pics",
   "showLineNumber": true,
   "showFrontmatter": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "vimMode": false
 }

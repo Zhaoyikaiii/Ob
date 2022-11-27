@@ -151,13 +151,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dcdaf695f6762aff",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
-    "Daily/2022-11-26.md",
-    "Daily/2022-11-26 1.md",
+    "Language/Go/Go环境配置.md",
     "Language/Go/Go的基本语法.md",
-    "Language/Go/Go基本命令.md",
     "Language/Go/为什么要需要Go语言.md",
+    "Daily/2022-11-27.md",
+    "Daily/2022-11-26.md",
+    "Language/Go/Go基本命令.md",
+    "Daily/2022-11-26 1.md",
     "Language/Go/Go test.md"
   ]
 }

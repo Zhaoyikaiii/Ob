@@ -146,7 +146,7 @@ mySlice4 := make([]int,10,20)
 
 - 切片是 i 连续内存并且可以动态拓展，由此引发的问题？
 ```go
-a := []int
+a := []int{}
 b := []int{1,2,3}//假设b这片空间已经满了，再次插入会导致重新申请新的空间
 c := a//初始化一个c使得它指向和a相同的地址
 a = append(b,1) //向b中插入一个元素，会导致b的地址发生变化返回给a的就是一个新的地址
@@ -207,5 +207,103 @@ func printMyType(t *MyType) {
 func main() {
 	t := MyType{Name:"test"}
 	printMyType(&t)
+}
+```
+
+## 结构体标签
+
+- 结构体中的字段除了有名字和类型外，还可以有一个可选的标签 (tag)
+- 使用场景：Kubernetes APIServer 对所有资源的的定义都是以 `json tag` 和 `protoBuff tag`
+```go
+type MyType struct {
+	Name string `Json:"name"`
+}
+
+func main() {
+	mt := MyType{Namse:"test"}
+	myType := reflect.TypeOf(mt)
+	name := myType.Field(0)
+	tag := name.Tag.Get("json")
+	println(tag)
+}
+```
+
+## 类型别名
+
+```go
+// Service Type string describe ingress methods for a service 
+type ServiceType string 
+
+const (
+	//ServiceTypeClusterIP means a service will only be accessible inside the cluster,via the ClusterIP
+	ServiceTypeCLusterIPServiceType = "ClusterIP"
+)
+```
+
+## Main 函数
+
+- 类比 `java` ，`go` 中的关键字时通过 `os.Args` 传递过来的
+- 每个 Go 语言程序都应该有个 main package 
+- Main package 里的 main 函数是 Go 语言程序入口
+
+## Init 函数
+
+- init 函数：会在包初始化时运行
+- 谨慎使用 `init` 函数
+	- 当多个依赖项目引用统一项目，且被引用项目的初始化在 `init` 中完成，并且不可重复运行时，会导致启动错误。
+
+## 返回值
+
+- 多值返回
+	- 函数可以返回任意数量的返回值
+	- 多返回值的应用场景? 错误处理
+- 命名返回值
+	- Go 的返回值可被命名，它们会被视作定义在函数顶部的变量。
+	- 返回值的名称应当具有一定的意义，它可以作为文档使用。
+	- 没有参数的 return 语句返回已命名的返回值，会直接返回
+- 调用者忽略部分返回值
+	- `result,_ = strconv.Atoi(orgA)`
+
+## 传递变长参数
+
+Go 语言中的可变长参数允许调用方传递多个相同类型的参数
+- 函数定义
+`func append(slice []Type,elems ...Type)[] Type`
+
+- 调用方法
+`myArray := []string{}`
+`myArray = append(myArray,"a","b","c")`
+
+## 内置函数
+
+- close：管道关闭
+- len, cap：返回数组，切片，Map 的长度或容量
+- `new`, `make` ： 内存分配
+- `copy`, `append` : 操作切片
+- `panic`, `recover` : 错误处理
+- `print`, `println` : 打印
+- `comples`, `real`, `imag` : 操作复数
+
+## 回调函数 (Callback)
+
+- 函数作为参数传入其他函数，并在其他函数内部调用执行
+`strings.IndexFunc(line,unicode,IsSpace)`
+`Kubernetes controller的leaderLection`
+
+```go
+func main() {
+	DoOperation(1,increase)
+	DoOperation(1,increase)
+}
+
+func increase(a,b int) {
+	println("increase result is",a + b)
+}
+
+func DoOperation(y int,f func(int,int)) {
+	f(y,1)
+}
+func decrease(a,b int) {
+	println("decrease result is:",a-b)
 }
 ```
