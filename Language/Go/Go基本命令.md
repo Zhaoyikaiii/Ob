@@ -551,4 +551,147 @@ panic("a panic is triggered")
 - CSP
 	- 描述两个独立的并发实体通过共享的通讯 channel 并行通信的并发模型。
 - Go 协程 goroutine 
-	- 是一种qing'l
+	- 是一种轻量线程，它不是操作系统的线程，而是将一个操作系统线程分段使用，通过调度器实现协作式调度。
+	- 是一种绿色线程，微线程，它与 Coroutine 协程也有区别，能够在发现堵塞后启动新的微线程。
+- 通道 channel 
+	- 类似 Unix 的 pipe, 用于协程之间通讯和同步。协程之间虽然解耦，但是它们和 Channel 有着耦合。
+
+## 线程和协程的差异
+
+- 每个 goroutine (协程) 默认占用内存比 Java, C 的先后曾少很多
+	- goroutine:2kb
+	- 线程：8MB
+- 线程/goroutine 切换开销方面，goroutine 远比线程小
+	- 线程: 设计模式切换 (从用户态切换到内核态)，16 个寄存器，PC, SP.... 等寄存器的刷新
+	- goroutine: 只有三个寄存器的值修改 -PC/SP/DX。
+- GOMAXPROCS
+	- 控制并行线程数量
+
+### 协程示例
+
+- 启动新协程：go functionName ()
+
+```go
+for i:= 0 ; i < 10 ; i ++ {
+	go fmt.Println(i)
+}
+
+time.Sleep(time.Second)
+```
+
+## Channel 多线程通信
+
+- Channel 是多个协程之间通讯的管道
+	- 一端发送数据，一段接收数据
+	- 同一时间只有一个协程可以访问数据，无共享内存模式可能出现内存竞争
+	- 协调协程的执行顺序
+- 声明方式
+	- `var identifier chan datatype`
+	- 操作符 `<-`
+- 示例：
+```go
+ch := make(chan int)
+go func() {
+	fmt.Println("hello from goroutine")
+	ch <- 0 //数据写入channel
+}()
+
+i := <- ch //从Channel中获取数据并赋值
+```
+
+## 通道缓存
+
+- 基于 Channel 的通信时同步的
+- 当缓冲区满时，数据的发送时阻塞的
+- 通过 make 关键字创建时可定义缓冲区容量，湖人缓冲区容量为 0
+
+- 下面两个定义的区别？
+	- ch := make (chan int) //这个没有给定默认的长度，默认为 0。
+		- channel 默认有一个行为当缓冲区满时，这个 channel 的阻塞的 
+	- ch := make (chan int, 1)
+
+### 遍历通道缓冲区
+
+```go
+ch := make(chan int,10)
+go func() {
+	for i:= 0 ; i < 10 ; i ++ {
+		rand.Seed(time.Now().UnixNano())
+		n := rand.Intn(10)//n will be between 0 and 10
+		fmt.Println("putting:",n)
+		ch <- n
+	}
+	close(ch)
+}()
+
+fmt.Println("hello from main")
+for v:= range ch {
+	fmt.Println("receiving:",v)
+}
+```
+
+## 单向通道
+
+- 只发送通道
+	- `var sendOnly chen <- int`
+- 只接收通道
+	- `var readOnly <- chen int`
+- Istio webhook controller 
+	- `func (w *WebhookCerPatcher) runWebhookController(stopChan <- chan struct{}){}`
+- 如何用：双向通道转换
+```go
+var c = make(chan int)
+go prod(c)
+go consume(c)
+func prod(ch chan<- int) {
+	for{
+		ch <- 1
+	}
+}
+func consume(ch <- chan int) {
+	for{
+		<-ch
+	}
+}
+```
+
+### 关闭通道
+
+- 通道无需每次关闭
+- 关闭的作用时告诉接收者该通道再无新数据发送
+- 只有发送方需要关闭通道
+```go
+ch := make(chan int)
+defer close(ch)
+if v,notClosed := <- ch ; notClosed {
+	fmt.Println(v)
+}
+```
+
+### Select
+
+- 当多个协程同时运行时，可通过 select 轮询多个通道
+	- 如果所有通道都阻塞则等待，如定义了 default 则执行 Default 
+	- 如多个通道就绪则随机选择
+```go
+select {
+	case v:= <- ch1:
+		...
+	case v:= <- ch2:
+		...
+	default:
+		...
+}
+```
+
+定时器 Timer
+
+- `time.Ticker` 以指定的时间间隔重复的向通道 C 发送时间值
+- 使用场景
+	- 为协程设定超时时间
+```go
+timer := time.NewTimer(time.Second)
+select {
+	//check normal channel
+}
+```
