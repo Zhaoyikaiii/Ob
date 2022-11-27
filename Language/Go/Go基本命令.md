@@ -363,3 +363,21 @@ type IF interface {
 - 一个类型可以实现多个接口
 - Go 语言中接口不接受属性定义
 - 接口可以嵌套其他接口
+
+注意事项
+- Interface 是可能为 `nil` 的，所以针对 `interface` 的使用一定要预先判空，否则会引起程序 `crash(nil panic)`
+- Struct 初始化意味着空间分配，对 struct 的引用不会出现空指针 
+
+## 反射机制
+
+- `reflect.TypeOf()` : 返回被检查对象的类型
+- `reflect.ValueOf()` : 返回被检查对象的值
+- 示例
+```go
+myMap := make(map[string]string,10)
+myMap["a"] = "b"
+t := reflect.TypeOf(myMap)
+fmt.Println("type:",t)
+v := reflect.ValueOf(myMap)
+fmt.Println("value:",v)
+```
