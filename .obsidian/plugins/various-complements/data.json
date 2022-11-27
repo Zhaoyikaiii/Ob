@@ -182,6 +182,38 @@
           "lastUpdated": 1669527134065
         }
       }
+    },
+    "Defer": {
+      "Defer": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669531532009
+        }
+      }
+    },
+    "crash": {
+      "crash": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669532162197
+        }
+      }
+    },
+    "Processing": {
+      "Processing": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669534447906
+        }
+      }
+    },
+    "goroutine": {
+      "goroutine": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669534495169
+        }
+      }
     }
   }
 }

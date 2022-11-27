@@ -472,3 +472,83 @@ type StatusError struct {
 	ErrorStatus metav1.Status
 }
 ```
+
+## Defer 
+- 函数返回之前执行某个语句或函数
+- 常见的 defer 使用场景：
+	- defer file. Close ()
+	- `defer mu.Unlock()`
+	- `defer println(""）`
+```go
+func loopFunc() {
+	lock := sync.Mutex{}
+	for i := 0 ; i < 3 ; i ++ {
+		lock.lock()
+		defer lock.Unlock() //defer语句是在程序退出时执行，并不是在当前循环结束时执行
+		//可以通过闭包来解决
+		fmt.Println("loopfunc:",i)
+	}
+}
+```
+
+```go
+func loopFunc() {
+	lock := sync.Mutex{}
+	for i := 0 ; i < 3 ; i ++ {
+		go func(i int) {
+			lock.lock()
+			defer lock.Unlock()
+			fmt.Println("loopFunc:"，i)
+		}(i)
+	}
+}
+```
+
+## Panic 和 recover 
+- Panic: 可在系统出现不可恢复错误时主动调用 panic, panic 会使当前线程直接 crash 
+- Defer: 保证执行并把控制权交还给接收到 panic 的函数调用者
+- recover: 函数从 panic 或错误场景中恢复
+
+```go
+defer func() {
+	fmt.Println("defer func is called")
+	if err := recover();err != nil {
+		fmt.Println(err)
+	}
+}()
+panic("a panic is triggered")
+```
+
+-  可以通过 defer 和 recover 组合实现类似于 `try...catch...` 的效果
+	- defer 保证的是在 crash 的时候执行一部分代码
+	- recover  是在当前的 panic 状态中恢复过来
+
+## 多线程
+
+### 并发和并行
+
+- 并发（concurrency)
+	- 两个或多个事件在同一时间间隔发生
+- 并行 (parallellism)
+	- 两个或者多个事件在同一时刻发生。
+
+### 协程
+
+- 进程：
+	- 分配系统资源 (cpu 时间，内存等) 基本单位
+	- 有独立的内存空间，切换开销大
+- 线程：
+	- 进程的一个执行流，是 CPU 调度并能独立运行的基本单位
+	- 统一进程中的多线程共享内存空间，线程切换代价小
+	- 多线程通信方便
+	- 从内核层面来看线程其实也是一种特殊的进程，它跟父进程共享了打开的文件和文件系统信息，共享了地址空间和信号处理函数
+- 协程
+	- Go 语言中轻量级线程实现
+	- Golang 在 runtime, 系统调用等多方面对 goroutine 调度进行了封装和处理，当遇到长时间执行或者进行系统调度，会主动把当前 goroutine 的 CPU (P) 转让出去，让其他 goroutine 能被调度并执行，也就是 Golang 从语言层面支持了协程。
+
+### Communicating Sequential Processing 
+
+- CSP
+	- 描述两个独立的并发实体通过共享的通讯 channel 并行通信的并发模型。
+- Go 协程 goroutine 
+	- 是一种qing'l
