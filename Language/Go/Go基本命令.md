@@ -703,4 +703,50 @@ select {
 ## 上下文 Context
 
 - 查找是，取消操作或者一些异常情况，往往需要进行抢占操作胡总和中断后续操作。
-- 
+- Context 是设置截止日期，同步信号，传递请求相关值的结构体
+```go
+type Context interface {
+	Deadline(){deadline time.Time,ok bool}
+	Done() <- chan struct{}
+	Err() error 
+	Value(key interface{}) interface{}
+}
+```
+- 用法
+	- context. Background
+		- Background 通常被用于主函数, 初始化以及测试中。作为一个顶层的 context, 也就是说一般我们创建的 context 都是基于 Background 
+	- `context.TODO`
+		- TODO 是在不确定使用什么 context 的时候才会使用
+	- `context.WithDeadline`
+		- 超时时间
+	- `context.Withvalue`
+		- 向 `context` 添加键值对
+	- `context.WithCancel`
+		- 创建一个可取消的 `context`
+
+### 如何停止一个子协程
+```go
+done := make(chan bool)
+fo func() {
+	for {
+		select {
+			//在这里select监听这个channel如果channel停止会打印
+			case <- done:
+				fmt.Println("done channel is triggerred,exit child go routine")
+				return
+		}
+	}
+}()
+close(done)
+```
+
+### 基于 Context 停止子协程
+
+- Context 是 Go 语言对 go routine 和 timer 的封装
+```go
+ctx,cancel := context.WithTimeout(context.Background(),time.Second)
+defer cancel()
+go process(ctx,100*time.Millisecond)
+<- ctx.Done()
+fmt.Println("main:",ctx.Err())
+```

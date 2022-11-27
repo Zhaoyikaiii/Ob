@@ -238,6 +238,22 @@
           "lastUpdated": 1669537087440
         }
       }
+    },
+    "error": {
+      "error": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669552917157
+        }
+      }
+    },
+    "Background": {
+      "Background": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1669553484242
+        }
+      }
     }
   }
 }
