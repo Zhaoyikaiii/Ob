@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Dev/Go/Go基本命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Go/Go基本命令.md",
+                "file": "Dev/Go/Go基本命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/前端工程化/Monorepo.md",
+                "file": "Dev/前端工程化/Monorepo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/前端工程化/Monorepo.md",
+                "file": "Dev/前端工程化/Monorepo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/前端工程化/Monorepo.md",
+                "file": "Dev/前端工程化/Monorepo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/前端工程化/Monorepo.md"
+                "file": "Dev/前端工程化/Monorepo.md"
               }
             }
           }
@@ -177,17 +177,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d55e0407b7579ff",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Go/为什么要需要Go语言.md",
+    "Dev/前端工程化/Monorepo.md",
     "Language/前端工程化.md",
-    "Language/Go/Go基本命令.md",
-    "Language/Go/Go的基本语法.md",
-    "Language/Go/Go test.md",
-    "Language/Go/Go环境配置.md",
-    "Language/Go/Go语言进阶.md",
-    "Language/Go/为什么要需要Go语言.md",
+    "Dev/Go/Go基本命令.md",
+    "Dev/Go/Go的基本语法.md",
+    "Dev/Go/Go test.md",
+    "Dev/Go/Go环境配置.md",
+    "Dev/Go/Go语言进阶.md",
     "Daily/2022-11-27.md",
-    "Daily/2022-11-26.md",
-    "Daily/2022-11-26 1.md"
+    "Daily/2022-11-26.md"
   ]
 }
