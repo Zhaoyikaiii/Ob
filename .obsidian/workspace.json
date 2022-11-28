@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Go/Go基本命令.md",
+                "file": "Dev/Go/Go语言进阶.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "178418ae616dedc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/线程调度.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/前端工程化/Monorepo.md",
+                "file": "Dev/Go/线程调度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/前端工程化/Monorepo.md",
+                "file": "Dev/Go/线程调度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/前端工程化/Monorepo.md"
+                "file": "Dev/Go/线程调度.md"
               }
             }
           }
@@ -179,6 +193,7 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Go/Go语言进阶.md",
     "Dev/Go/Go基本命令.md",
     "Dev/Go/为什么要需要Go语言.md",
     "Dev/前端工程化/Monorepo.md",
@@ -186,7 +201,6 @@
     "Dev/Go/Go的基本语法.md",
     "Dev/Go/Go test.md",
     "Dev/Go/Go环境配置.md",
-    "Dev/Go/Go语言进阶.md",
     "Daily/2022-11-27.md",
     "Daily/2022-11-26.md"
   ]

@@ -262,6 +262,22 @@
           "lastUpdated": 1669554011848
         }
       }
+    },
+    "WaitGroup": {
+      "WaitGroup": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669634308488
+        }
+      }
+    },
+    "task_struct": {
+      "task_struct": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669636438864
+        }
+      }
     }
   }
 }

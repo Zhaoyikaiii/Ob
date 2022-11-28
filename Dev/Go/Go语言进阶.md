@@ -42,3 +42,67 @@ func(s *SafeMap*)Read(k int) (int , bool) {
 	return result,ok
 }
 ```
+
+### Wait Group
+
+```go
+//CreateBatch create a batch of pods.All pods are created before waiting.
+
+func (c *PodCLient)CreateBatch(pods []*v1.Pod) []*v1.Pod {
+	ps := make([]*v1.Pod,len(pods))
+	var wg sync.WaitGroup 
+	for i,pod := range pods {
+		wg.Add(1)
+		go func(i int,pod *v1.Pod) {
+			defer wg.Done()
+			defer GinkgoRecover()
+			ps[i] = c.CreateSync(pod)
+		}(i,pod)
+	}
+	wg.Wait()
+	return ps
+}
+```
+
+```go
+type Queue struct {
+	queue []string
+	cond *sync.COnd*
+}
+
+func main() {
+	q := Queue {
+		queue: []stirng{},
+		cond : sync.NewCOnd(*sync.Mutex{})
+ 	}
+	 go func() {
+		 for {
+			 q.Enqueue("a")
+			 time.Sleep(time.Second * 2)
+		 }
+	 }()
+}
+
+func (q *Queue)Enqueue(item string) {
+	q.cond.L.lock()
+	defer q.cond.L.UnLock()
+	q.ueue = append(q.queue,item)
+	fmt.Printf("putting #{item} to queue,notify all")
+	q.cond.Broadcast()
+}
+
+func (q *Queue) Dequeue() string {
+	q.cond.L.Lock()
+	defer q.corn.L.Unlock()
+	if len(q.queue) == 0 {
+		fmt.Println("no data available,wait")
+		q.cond.Wait()
+	}
+	result := q.queue[0]
+	q.queue = q.queue[1:]
+	return result
+
+}
+
+```
+
