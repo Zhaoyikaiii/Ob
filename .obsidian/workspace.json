@@ -191,17 +191,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8c0eb6040439210b",
+  "active": "178418ae616dedc9",
   "lastOpenFiles": [
-    "Dev/Go/Go语言进阶.md",
-    "Dev/Go/Go基本命令.md",
-    "Dev/Go/为什么要需要Go语言.md",
     "Dev/前端工程化/Monorepo.md",
+    "Dev/Go/Go基本命令.md",
+    "Dev/Go/线程调度.md",
+    "Dev/Go/Go语言进阶.md",
+    "Dev/Go/为什么要需要Go语言.md",
     "Language/前端工程化.md",
     "Dev/Go/Go的基本语法.md",
     "Dev/Go/Go test.md",
     "Dev/Go/Go环境配置.md",
-    "Daily/2022-11-27.md",
-    "Daily/2022-11-26.md"
+    "Daily/2022-11-27.md"
   ]
 }
