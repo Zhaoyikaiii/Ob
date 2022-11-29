@@ -11,5 +11,12 @@
   "obsidian-kanban",
   "link-favicon",
   "remember-cursor-position",
-  "templater-obsidian"
+  "templater-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "url-into-selection",
+  "table-editor-obsidian",
+  "recent-files-obsidian",
+  "cm-typewriter-scroll-obsidian",
+  "obsidian-youglish-plugin",
+  "maximise-active-pane-obsidian"
 ]

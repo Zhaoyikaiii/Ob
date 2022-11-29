@@ -1,6 +1,6 @@
 {
-  "accentColor": "",
+  "accentColor": "#100f0f",
   "baseFontSize": 17,
-  "cssTheme": "Sanctum",
-  "theme": "moonstone"
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian"
 }
