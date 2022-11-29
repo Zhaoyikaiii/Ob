@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Go语言进阶",
+      "path": "Dev/Go/Go语言进阶.md"
+    },
+    {
+      "basename": "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）",
+      "path": "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）.md"
+    },
+    {
       "basename": "Go基本命令",
       "path": "Dev/Go/Go基本命令.md"
+    },
+    {
+      "basename": "Monorepo",
+      "path": "Dev/前端工程化/Monorepo.md"
     }
   ],
   "omittedPaths": [],

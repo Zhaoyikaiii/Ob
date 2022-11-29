@@ -6,6 +6,7 @@
       {
         "id": "4f81f798103d83e2",
         "type": "tabs",
+        "dimension": 54.82233502538071,
         "children": [
           {
             "id": "dcdaf695f6762aff",
@@ -65,6 +66,7 @@
       {
         "id": "1ad3e64ea1891006",
         "type": "tabs",
+        "dimension": 45.17766497461929,
         "children": [
           {
             "id": "5d55e0407b7579ff",
@@ -72,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/前端工程化/Monorepo.md",
+                "file": "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -133,13 +135,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -163,10 +163,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a3c0168412b9d28c",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
-    "Dev/前端工程化/Monorepo.md",
     "Dev/Go/Go基本命令.md",
+    "Dev/前端工程化/Monorepo.md",
     "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）.md",
     "Dev/Go/线程调度.md",
     "Dev/Go/Go语言进阶.md",
