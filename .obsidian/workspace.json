@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "01ec1b5d7a6d93e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/内存管理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5a229bbba92dddf5",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Go/线程调度.md",
+                "file": "Dev/Go/内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Go/线程调度.md",
+                "file": "Dev/Go/内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Go/线程调度.md"
+                "file": "Dev/Go/内存管理.md"
               }
             }
           }
@@ -191,11 +204,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "178418ae616dedc9",
+  "active": "01ec1b5d7a6d93e0",
   "lastOpenFiles": [
+    "Dev/Go/线程调度.md",
     "Dev/前端工程化/Monorepo.md",
     "Dev/Go/Go基本命令.md",
-    "Dev/Go/线程调度.md",
     "Dev/Go/Go语言进阶.md",
     "Dev/Go/为什么要需要Go语言.md",
     "Language/前端工程化.md",
