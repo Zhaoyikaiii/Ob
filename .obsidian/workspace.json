@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "4b347d5613c0737d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/包引用与依赖管理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "178418ae616dedc9",
             "type": "leaf",
             "state": {
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,15 +157,15 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "dcdaf695f6762aff",
+  "active": "4b347d5613c0737d",
   "lastOpenFiles": [
+    "Dev/Go/内存管理.md",
     "Dev/Go/线程调度.md",
     "Dev/Go/Go语言进阶.md",
     "Dev/Go/Go基本命令.md",
     "Dev/前端工程化/Monorepo.md",
     "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）.md",
     "Dev/Go/Go test.md",
-    "Dev/Go/内存管理.md",
     "Dev/Go/为什么要需要Go语言.md",
     "Language/前端工程化.md",
     "Dev/Go/Go的基本语法.md"

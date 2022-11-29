@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "包引用与依赖管理",
+      "path": "Dev/Go/包引用与依赖管理.md"
+    },
+    {
       "basename": "内存管理",
       "path": "Dev/Go/内存管理.md"
     },
