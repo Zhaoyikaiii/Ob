@@ -62,7 +62,7 @@
 
 以 `docker run -it centos bash` 为例
 - docker 会现在本本地查看是否有 centos 这个镜像
-	- 如果在本地没有这个镜像会运行 `docker pull centos` 从远端的 docker hub 上拉取镜像。
+	- 如果在本地没有这个镜像会运行 `docker pull centos` 从远端的 docker hub 上拉取镜像。(本身是一个 tar 包)
 - 如果在本次有这个 Image 会在本地起一个 Container
 - 之后执行 `bash`
 
@@ -75,3 +75,33 @@
 		- `PID=$(docker inspect --format "{{.State.Pid}}" <container>`
 		- `$nsenter --target $PID --mount -uts -ipc --net --pid `
 - 拷贝文件 `docker cp file1 <containerid>:/file-to-path`
+
+### 初识容器
+
+- `cat Dockerfile`
+```Dockerfil
+FROM ubuntu
+ENV MY_SERVICE_PORT = 80
+EADD bin/amd64/httpserver /httpserver
+ENTRYPOINT /httpserver
+```
+
+- 将 Dockerfile 打包成镜像
+
+`docker build -t xxxx/xxxx:${tag}`
+`docker push xxxx/xxx:vx.x`
+
+- 运行容器
+
+`docker run -d xxx/xxxx:vx:x`
+
+### 容器标准
+
+- Open Container Initiative (OCI)
+	- 轻量级开发式管理组织（项目）
+- OCI 主要定义两个规范
+	- Runtime Specification
+		- 文件系统包如何解压至硬盘，供运行时运行
+	- Image Specification 
+		- 如何通过构建系统打包，生成镜像菜单 (Manifest), 文件系统序列化文件，镜像配置。
+		- 将之前虚拟机整个揉在一起的包，通过 Dockerfile 分层的方式，使得容器变得更有条理。每一层都有自己的 checksum 如果 checksum 是一致的会进行复用，拉取的时候只拉取动态的部分

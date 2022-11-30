@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "什么是操作系统",
+      "path": "Dev/Linux/什么是操作系统.md"
+    },
+    {
+      "basename": "man",
+      "path": "Dev/Linux/man.md"
+    },
+    {
+      "basename": "Namespace",
+      "path": "Dev/Docker/Namespace.md"
+    },
+    {
       "basename": "Docker",
       "path": "Dev/Docker/Docker.md"
     },
