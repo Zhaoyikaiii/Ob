@@ -19,3 +19,43 @@
 	- 用 read () 读取从远程计算机传来的数据
 	- 用 write () 向远程计算机写入数据
 ![[Pasted image 20221129222216.png]]
+
+### 理解 net. Http 包
+
+- 注册 handle 处理函数
+`http.HandleFunc("/healthz",healthz)`
+//Use the default DefaultServeMux.
+- ListenAndService
+- `err := http.ListenAndServe(":80",nil)`
+- `if err != nil { log.Fatal(err) }`
+- 定义 handle 处理函数
+```go
+func healthz(w http.ResponseWriter,r *http.Request) {
+	io.WriteString(w,"ok")
+}
+```
+
+#### 阻塞 IO 模型
+![[Pasted image 20221130072202.png]]
+
+#### 非阻塞 IO 模型
+![[Pasted image 20221130072356.png]]
+
+#### IO 多路复用
+
+![[Pasted image 20221130072508.png]]
+
+#### 异步 IO
+![[Pasted image 20221130072750.png]]
+
+#### Linux epoll
+
+![[Pasted image 20221130072908.png]] 
+
+### Go 语言高性能 httpserver 的实现细节
+- Go 语言将协程与 fd 资源绑定
+	- 一个 Socket fd 与一个协程绑定
+	- 当 socket fd 未就绪时，将对应协程设置为 Gwaiting 状态，将 CPU 时间片让给其它协程
+	- Go 语言 runtime 调度器进行调度唤醒协程时，检查 fd 是否就绪，如果就绪则将协程置为 Grunnable 并加入执行队列
+	- 协程被调度后处理 fd 数据
+![[Pasted image 20221130073436.png]]

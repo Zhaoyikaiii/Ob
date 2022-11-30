@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "调试",
+      "path": "Dev/Go/调试.md"
+    },
+    {
       "basename": "手写一个Http Server",
       "path": "Dev/Go/手写一个Http Server.md"
     },
