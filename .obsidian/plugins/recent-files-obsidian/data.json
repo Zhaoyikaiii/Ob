@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "Dev/Docker/Docker.md"
+    },
+    {
       "basename": "调试",
       "path": "Dev/Go/调试.md"
     },
