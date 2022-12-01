@@ -8,85 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6cdd28d6480ce6e9",
+            "id": "843c0d2b6f144315",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Go/调试.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63c853fec2494596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Docker/Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85bb0eb49a94cc3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Docker/Namespace.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30f1369acad90db3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Linux/man.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c799437ba6843c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Linux/man.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1d29b21f0554e09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Linux/文件系统.md",
+                "file": "Dev/Linux/监测程序.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,6 +106,7 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Linux/文件系统.md",
     "Dev/Linux/man.md",
     "Dev/Linux/什么是操作系统.md",
     "Dev/Linux.md",
@@ -180,7 +115,6 @@
     "Dev/Go/调试.md",
     "Dev/Go/手写一个Http Server.md",
     "Dev/Go/Makefile.md",
-    "Dev/Go/包引用与依赖管理.md",
-    "Dev/Go/内存管理.md"
+    "Dev/Go/包引用与依赖管理.md"
   ]
 }
