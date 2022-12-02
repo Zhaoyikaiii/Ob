@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Monorepo",
-      "path": "Dev/前端工程化/Monorepo.md"
-    },
-    {
       "basename": "监测程序",
       "path": "Dev/Linux/监测程序.md"
     },
@@ -15,6 +11,10 @@
     {
       "basename": "man",
       "path": "Dev/Linux/man.md"
+    },
+    {
+      "basename": "Monorepo",
+      "path": "Dev/前端工程化/Monorepo.md"
     },
     {
       "basename": "什么是操作系统",
