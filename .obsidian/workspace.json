@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb4e9fce465f7712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/gFrame/项目结构.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
