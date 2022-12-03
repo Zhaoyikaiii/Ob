@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a17239ac3daec0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Go语言项目.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,6 +145,7 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Go/gFrame/项目结构.md",
     "Dev/Linux/监测程序.md",
     "Dev/Linux/文件系统.md",
     "Dev/Linux/man.md",
@@ -140,7 +154,6 @@
     "Dev/Linux.md",
     "Dev/Docker/Namespace.md",
     "Dev/Docker/Docker.md",
-    "Dev/Go/调试.md",
-    "Dev/Go/手写一个Http Server.md"
+    "Dev/Go/调试.md"
   ]
 }
