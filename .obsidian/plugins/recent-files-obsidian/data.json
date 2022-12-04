@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "监测程序",
+      "path": "Dev/Linux/监测程序.md"
+    },
+    {
       "basename": "Docker",
       "path": "Dev/Docker/Docker.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "项目结构",
       "path": "Dev/Go/gFrame/项目结构.md"
-    },
-    {
-      "basename": "监测程序",
-      "path": "Dev/Linux/监测程序.md"
     },
     {
       "basename": "RBAC",
