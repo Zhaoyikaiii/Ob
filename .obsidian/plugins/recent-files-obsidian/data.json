@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "第1章 计算机网络和因特网",
-      "path": "Dev/计算机网络/第1章 计算机网络和因特网.md"
+      "basename": "Mysql集群搭建",
+      "path": "Dev/数据库/Mysql/Mysql集群搭建.md"
     },
     {
       "basename": "Docker",
       "path": "Dev/Docker/Docker.md"
+    },
+    {
+      "basename": "项目结构",
+      "path": "Dev/Go/gFrame/项目结构.md"
+    },
+    {
+      "basename": "第1章 计算机网络和因特网",
+      "path": "Dev/计算机网络/第1章 计算机网络和因特网.md"
     },
     {
       "basename": "监测程序",
@@ -15,10 +23,6 @@
     {
       "basename": "Go语言项目",
       "path": "Dev/Go/Go语言项目.md"
-    },
-    {
-      "basename": "项目结构",
-      "path": "Dev/Go/gFrame/项目结构.md"
     },
     {
       "basename": "RBAC",
