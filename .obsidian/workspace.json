@@ -65,7 +65,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Go/Go语言进阶.md",
+                "file": "Dev/Linux/压缩数据.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ca92c657bdf7d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Linux/归档数据.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d9640538f614db5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Linux/shell.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -131,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -158,15 +185,15 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
-    "Dev/Go/Go基本命令.md",
-    "Dev/Go/Go语言进阶.md",
-    "Dev/Linux/压缩数据.md",
-    "Dev/Linux/搜索数据.md",
     "Dev/Linux/处理数据文件.md",
-    "Dev/Linux/检测磁盘空间.md",
+    "Dev/Linux/归档数据.md",
     "Dev/Linux/监测程序.md",
-    "Dev/Cloud Native/什么是云计算.md",
-    "Dev/数据库/Mysql/Mysql集群搭建.md",
-    "Dev/Docker/Docker.md"
+    "Dev/Linux/检测磁盘空间.md",
+    "Dev/Linux/压缩数据.md",
+    "Dev/Linux/shell.md",
+    "Dev/Linux/文件系统.md",
+    "Dev/Go/Go语言进阶.md",
+    "Dev/Go/Go基本命令.md",
+    "Dev/Linux/搜索数据.md"
   ]
 }

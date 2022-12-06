@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "Dev/Linux/shell.md"
+    },
+    {
+      "basename": "处理数据文件",
+      "path": "Dev/Linux/处理数据文件.md"
+    },
+    {
+      "basename": "归档数据",
+      "path": "Dev/Linux/归档数据.md"
+    },
+    {
+      "basename": "监测程序",
+      "path": "Dev/Linux/监测程序.md"
+    },
+    {
+      "basename": "检测磁盘空间",
+      "path": "Dev/Linux/检测磁盘空间.md"
+    },
+    {
+      "basename": "压缩数据",
+      "path": "Dev/Linux/压缩数据.md"
+    },
+    {
+      "basename": "文件系统",
+      "path": "Dev/Linux/文件系统.md"
+    },
+    {
       "basename": "Go语言进阶",
       "path": "Dev/Go/Go语言进阶.md"
     },
@@ -9,24 +37,8 @@
       "path": "Dev/Go/Go基本命令.md"
     },
     {
-      "basename": "压缩数据",
-      "path": "Dev/Linux/压缩数据.md"
-    },
-    {
       "basename": "搜索数据",
       "path": "Dev/Linux/搜索数据.md"
-    },
-    {
-      "basename": "处理数据文件",
-      "path": "Dev/Linux/处理数据文件.md"
-    },
-    {
-      "basename": "检测磁盘空间",
-      "path": "Dev/Linux/检测磁盘空间.md"
-    },
-    {
-      "basename": "监测程序",
-      "path": "Dev/Linux/监测程序.md"
     },
     {
       "basename": "什么是云计算",
@@ -55,10 +67,6 @@
     {
       "basename": "RBAC",
       "path": "Dev/RBAC.md"
-    },
-    {
-      "basename": "文件系统",
-      "path": "Dev/Linux/文件系统.md"
     },
     {
       "basename": "man",
