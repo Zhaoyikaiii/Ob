@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Go语言进阶",
+      "path": "Dev/Go/Go语言进阶.md"
+    },
+    {
+      "basename": "Go基本命令",
+      "path": "Dev/Go/Go基本命令.md"
+    },
+    {
       "basename": "压缩数据",
       "path": "Dev/Linux/压缩数据.md"
     },
@@ -91,14 +99,6 @@
     {
       "basename": "线程调度",
       "path": "Dev/Go/线程调度.md"
-    },
-    {
-      "basename": "Go语言进阶",
-      "path": "Dev/Go/Go语言进阶.md"
-    },
-    {
-      "basename": "Go基本命令",
-      "path": "Dev/Go/Go基本命令.md"
     },
     {
       "basename": "如果这篇文章说不清epoll的本质，那就过来掐死我吧！  （1）",
