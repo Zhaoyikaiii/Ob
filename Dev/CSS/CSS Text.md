@@ -36,8 +36,24 @@
 ##  Text Decoration
 
 - `text-decoration-line`
+	- `overline`
+	- `line-through`
+	- `underline`
+	- `overline underline`
 - `text-decoration-color`
 - `text-decoration-style`
-- `text-decoration-thickness`
+	- `text-decoration-thickness` 指定厚度
 - `text-decoration`
 
+
+## Text Transformation
+
+text Transformation 被用来设置文本的大小写 `uppercase` / `lowercase` / `capitalize`
+
+## Text Spacing
+
+- `text-indent` 用来指定第一个字母的缩进
+- `letter-spacing` 指定字母之间的空隙
+- `line-height` 指定行之间的空隙
+- `word-spacing` 指定单词之间的空隙
+- `white-space`
