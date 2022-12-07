@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/CSS/CSS Padding.md",
+                "file": "Dev/CSS/CSS Outlined.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e29a816e0e23ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS Text.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -58,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "edd5c1f0a0abf418",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS borders.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -143,17 +170,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "0e5219d126a1e64c",
+  "active": "2e29a816e0e23ef3",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Outlined.md",
     "Dev/CSS/CSS Padding.md",
     "Dev/CSS/CSS Margins.md",
-    "Dev/CSS/CSS border.md",
+    "Dev/CSS/CSS borders.md",
+    "Dev/CSS/CSS Height Width.md",
     "Dev/CSS/CSS BoxModel.md",
     "Dev/Linux/监测程序.md",
     "Dev/Linux/处理数据文件.md",
     "Dev/Linux/归档数据.md",
-    "Dev/Linux/检测磁盘空间.md",
-    "Dev/Linux/压缩数据.md",
-    "Dev/Linux/shell.md"
+    "Dev/Linux/检测磁盘空间.md"
   ]
 }

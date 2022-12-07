@@ -366,6 +366,38 @@
           "lastUpdated": 1670369383781
         }
       }
+    },
+    "Text-align": {
+      "Text-align": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670379550033
+        }
+      }
+    },
+    "Text-align-last": {
+      "Text-align-last": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670379728967
+        }
+      }
+    },
+    "unicode-bidi": {
+      "unicode-bidi": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670379778635
+        }
+      }
+    },
+    "Alignment": {
+      "Alignment": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670379843742
+        }
+      }
     }
   }
 }

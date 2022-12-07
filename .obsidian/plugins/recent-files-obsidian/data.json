@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "CSS Height Width",
-      "path": "Dev/CSS/CSS Height Width.md"
+      "basename": "CSS Text",
+      "path": "Dev/CSS/CSS Text.md"
+    },
+    {
+      "basename": "CSS Outlined",
+      "path": "Dev/CSS/CSS Outlined.md"
     },
     {
       "basename": "CSS Padding",
@@ -13,8 +17,12 @@
       "path": "Dev/CSS/CSS Margins.md"
     },
     {
-      "basename": "CSS border",
-      "path": "Dev/CSS/CSS border.md"
+      "basename": "CSS borders",
+      "path": "Dev/CSS/CSS borders.md"
+    },
+    {
+      "basename": "CSS Height Width",
+      "path": "Dev/CSS/CSS Height Width.md"
     },
     {
       "basename": "CSS BoxModel",
