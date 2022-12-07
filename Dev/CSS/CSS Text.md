@@ -57,3 +57,28 @@ text Transformation 被用来设置文本的大小写 `uppercase` / `lowercase` 
 - `line-height` 指定行之间的空隙
 - `word-spacing` 指定单词之间的空隙
 - `white-space`
+	- `normal`
+	- `nowrap`
+	- `pre`
+	- `pre-line`
+	- `pre-wrap`
+
+## Text Shadow
+
+```css
+h1 {  text-shadow: 2px 2px;}
+```
+
+第一个参数指定的是水平方向的阴影
+第二个参数指定的是竖直方向的阴影
+第三个参数指定阴影的颜色
+也可以从上方开始，按照顺时针的方向指定不同方向文字的阴影。
+```css
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+```
+
+![[Pasted image 20221207165604.png]]
+

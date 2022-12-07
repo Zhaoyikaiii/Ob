@@ -13,80 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/CSS/CSS Margins.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d24843686b2347b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/CSS/CSS Outlined.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e29a816e0e23ef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/CSS/CSS Text.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a344f84deb1cc046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/CSS/CSS Padding.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e5219d126a1e64c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Dev/CSS/CSS Height Width.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "edd5c1f0a0abf418",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/CSS/CSS borders.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -170,17 +103,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "2e29a816e0e23ef3",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Margins.md",
     "Dev/CSS/CSS Outlined.md",
     "Dev/CSS/CSS Padding.md",
-    "Dev/CSS/CSS Margins.md",
+    "Dev/CSS/CSS Text.md",
     "Dev/CSS/CSS borders.md",
-    "Dev/CSS/CSS Height Width.md",
     "Dev/CSS/CSS BoxModel.md",
-    "Dev/Linux/监测程序.md",
-    "Dev/Linux/处理数据文件.md",
-    "Dev/Linux/归档数据.md",
-    "Dev/Linux/检测磁盘空间.md"
+    "Dev/CSS/CSS Font.md",
+    "Dev/CSS/CSS Height Width.md",
+    "未命名.md",
+    "Dev/Linux/监测程序.md"
   ]
 }
