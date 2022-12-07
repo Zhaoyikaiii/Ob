@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/CSS/CSS Height Width.md",
+                "file": "Dev/Linux/shell.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -105,6 +106,8 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Linux/压缩数据.md",
+    "Dev/CSS/CSS Height Width.md",
     "Dev/CSS/CSS Margins.md",
     "Dev/CSS/CSS Outlined.md",
     "Dev/CSS/CSS Padding.md",
@@ -112,8 +115,6 @@
     "Dev/CSS/CSS borders.md",
     "Dev/CSS/CSS BoxModel.md",
     "Dev/CSS/CSS Font.md",
-    "Dev/CSS/CSS Height Width.md",
-    "未命名.md",
-    "Dev/Linux/监测程序.md"
+    "未命名.md"
   ]
 }

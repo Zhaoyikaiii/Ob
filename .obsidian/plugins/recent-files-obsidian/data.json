@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "Dev/Linux/shell.md"
+    },
+    {
+      "basename": "压缩数据",
+      "path": "Dev/Linux/压缩数据.md"
+    },
+    {
       "basename": "CSS Height Width",
       "path": "Dev/CSS/CSS Height Width.md"
     },
@@ -41,10 +49,6 @@
       "path": "Dev/Linux/监测程序.md"
     },
     {
-      "basename": "shell",
-      "path": "Dev/Linux/shell.md"
-    },
-    {
       "basename": "处理数据文件",
       "path": "Dev/Linux/处理数据文件.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "检测磁盘空间",
       "path": "Dev/Linux/检测磁盘空间.md"
-    },
-    {
-      "basename": "压缩数据",
-      "path": "Dev/Linux/压缩数据.md"
     },
     {
       "basename": "文件系统",
