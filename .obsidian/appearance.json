@@ -2,5 +2,8 @@
   "accentColor": "#100f0f",
   "baseFontSize": 16,
   "cssTheme": "Blue Topaz",
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono"
 }
