@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "监测程序",
+      "path": "Dev/Linux/监测程序.md"
+    },
+    {
       "basename": "shell",
       "path": "Dev/Linux/shell.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "归档数据",
       "path": "Dev/Linux/归档数据.md"
-    },
-    {
-      "basename": "监测程序",
-      "path": "Dev/Linux/监测程序.md"
     },
     {
       "basename": "检测磁盘空间",
