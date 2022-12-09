@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5cd24ec420e098cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Makefile/宏.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0d489f043cb76b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Makefile/为什么需要Makefile.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -104,17 +130,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "8c0eb6040439210b",
+  "active": "d0d489f043cb76b8",
   "lastOpenFiles": [
+    "Dev/Makefile/宏.md",
+    "Dev/未命名.md",
+    "Dev/Linux/shell.md",
     "Dev/Linux/压缩数据.md",
     "Dev/CSS/CSS Height Width.md",
     "Dev/CSS/CSS Margins.md",
     "Dev/CSS/CSS Outlined.md",
     "Dev/CSS/CSS Padding.md",
     "Dev/CSS/CSS Text.md",
-    "Dev/CSS/CSS borders.md",
-    "Dev/CSS/CSS BoxModel.md",
-    "Dev/CSS/CSS Font.md",
-    "未命名.md"
+    "Dev/CSS/CSS borders.md"
   ]
 }
