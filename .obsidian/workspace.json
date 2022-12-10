@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/CSS/CSS Table.md",
+                "file": "Dev/CSS/CSS Text.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -157,8 +156,9 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "4ad1d23e4e8f3ee7",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Table.md",
     "Dev/CSS/CSS Lists.md",
     "Dev/CSS/CSS Text.md",
     "Dev/Makefile/为什么需要Makefile.md",
@@ -167,7 +167,6 @@
     "Dev/Linux/shell.md",
     "Dev/Linux/压缩数据.md",
     "Dev/CSS/CSS Height Width.md",
-    "Dev/CSS/CSS Margins.md",
-    "Dev/CSS/CSS Outlined.md"
+    "Dev/CSS/CSS Margins.md"
   ]
 }

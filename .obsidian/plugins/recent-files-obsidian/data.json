@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS Text",
+      "path": "Dev/CSS/CSS Text.md"
+    },
+    {
       "basename": "CSS Table",
       "path": "Dev/CSS/CSS Table.md"
     },
     {
       "basename": "CSS Lists",
       "path": "Dev/CSS/CSS Lists.md"
-    },
-    {
-      "basename": "CSS Text",
-      "path": "Dev/CSS/CSS Text.md"
     },
     {
       "basename": "为什么需要Makefile",
