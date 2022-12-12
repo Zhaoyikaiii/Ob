@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "Dev/Linux/shell.md"
+    },
+    {
       "basename": "CSS Text",
       "path": "Dev/CSS/CSS Text.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "宏",
       "path": "Dev/Makefile/宏.md"
-    },
-    {
-      "basename": "shell",
-      "path": "Dev/Linux/shell.md"
     },
     {
       "basename": "压缩数据",
