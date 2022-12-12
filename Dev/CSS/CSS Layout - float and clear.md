@@ -174,3 +174,104 @@ div {  float: left;
 ![[Pasted image 20221212160906.png]]
 
 
+##### 导航栏
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+```
+
+![[Pasted image 20221212161137.png]]
+
+
+![[Pasted image 20221212161447.png]]
+
+```html
+<style>
+* {
+	box-sizing:border-box 
+}
+
+body {
+	background-color :white
+}
+
+.header .footer {
+	background-color :grey
+	color:white 
+	padding：15px
+}
+
+.clearfix::after {
+	content:"";
+	clear:both;
+	display:table
+}
+
+.menu {
+	width:25%
+}
+.content {
+	width:75%
+}
+.menu ul {
+	list-style-type:none
+	margin:0
+	padding:0
+}
+.menu li {
+	padding:8px;
+	margin-bottom:8px;
+	background-color:#33b5e5;
+	color:#fff
+}
+.menu li:hover {
+	background-color:#0099cc
+}
+</style>
+
+
+```

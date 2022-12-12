@@ -402,8 +402,8 @@
     "background-color": {
       "background-color": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670810637296
+          "count": 6,
+          "lastUpdated": 1670833108312
         }
       }
     },
@@ -532,6 +532,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1670831196639
+        }
+      }
+    },
+    "border-box": {
+      "border-box": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670832921849
+        }
+      }
+    },
+    "white": {
+      "white": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670832956016
+        }
+      }
+    },
+    "list-style-type": {
+      "list-style-type": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670833036133
         }
       }
     }
