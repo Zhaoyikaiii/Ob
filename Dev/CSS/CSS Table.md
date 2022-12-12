@@ -80,3 +80,13 @@ th {
 ```
 
 
+#### 响应式的表格
+
+```html
+<div style="overflow-x:auto;">
+	<table>
+	// table --- content
+	</table>
+</div>
+```
+

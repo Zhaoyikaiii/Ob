@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e11cb11b87e894a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS Display.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -131,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -156,11 +170,11 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "4ad1d23e4e8f3ee7",
+  "active": "5e11cb11b87e894a",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Table.md",
     "Dev/CSS/CSS Text.md",
     "Dev/Linux/shell.md",
-    "Dev/CSS/CSS Table.md",
     "Dev/CSS/CSS Lists.md",
     "Dev/Makefile/为什么需要Makefile.md",
     "Dev/Makefile/宏.md",
