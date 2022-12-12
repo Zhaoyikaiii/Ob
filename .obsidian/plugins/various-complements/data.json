@@ -406,6 +406,54 @@
           "lastUpdated": 1670810637296
         }
       }
+    },
+    "relative": {
+      "relative": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670824106379
+        }
+      }
+    },
+    "fixed": {
+      "fixed": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670824257302
+        }
+      }
+    },
+    "absolute": {
+      "absolute": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670824554603
+        }
+      }
+    },
+    "sticky": {
+      "sticky": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670824961600
+        }
+      }
+    },
+    "position": {
+      "position": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670825325937
+        }
+      }
+    },
+    "-webkit-prefix": {
+      "-webkit-prefix": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670825330995
+        }
+      }
     }
   }
 }
