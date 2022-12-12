@@ -66,4 +66,31 @@ div.absolute {
 需要注意的是：
 - IE 并不支持黏性定位。
 - Safari 需要一个 `-webkit-prefix` 的前缀类似于：`position:-webkit-sticky`
-- 并且需要指定 `top`, ``
+- 并且需要指定 `top`, `right`, `bottom`, `left` 中的一个来保证黏性定位生效。例如 ![[Pasted image 20221212141042.png]]
+滚动条是在竖直方向的，我们需要指定 `top:0` 
+
+### example
+
+例子，如何将文本固定于一张图片外
+![[Pasted image 20221212141206.png]]
+
+```css
+.container {
+	relative
+}
+
+.topLeft {
+	position: absolute;
+	top:8px;
+	left:16px;
+	font-size:18px
+}
+
+img {
+	width:100%;
+	height:auto;
+	opacity:0.3
+}
+```
+
+
