@@ -454,6 +454,86 @@
           "lastUpdated": 1670825330995
         }
       }
+    },
+    "visible": {
+      "visible": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670829635411
+        }
+      }
+    },
+    "hidden": {
+      "hidden": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670829706954
+        }
+      }
+    },
+    "scroll": {
+      "scroll": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670829751343
+        }
+      }
+    },
+    "overflow-x": {
+      "overflow-x": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670829880674
+        }
+      }
+    },
+    "float": {
+      "float": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670830220792
+        }
+      }
+    },
+    "right": {
+      "right": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670830227898
+        }
+      }
+    },
+    "clear": {
+      "clear": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670830652495
+        }
+      }
+    },
+    "Example": {
+      "Example": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670830933280
+        }
+      }
+    },
+    "Boxes": {
+      "Boxes": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670830958264
+        }
+      }
+    },
+    "border": {
+      "border": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670831196639
+        }
+      }
     }
   }
 }

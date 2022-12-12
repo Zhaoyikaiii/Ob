@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CSS Z-index",
-      "path": "Dev/CSS/CSS Z-index.md"
+      "basename": "CSS Layout - float and clear",
+      "path": "Dev/CSS/CSS Layout - float and clear.md"
     },
     {
       "basename": "CSS Position",
       "path": "Dev/CSS/CSS Position.md"
+    },
+    {
+      "basename": "CSS box-sizing",
+      "path": "Dev/CSS/CSS box-sizing.md"
+    },
+    {
+      "basename": "CSS Overflow",
+      "path": "Dev/CSS/CSS Overflow.md"
+    },
+    {
+      "basename": "CSS Z-index",
+      "path": "Dev/CSS/CSS Z-index.md"
     },
     {
       "basename": "CSS Max-width",

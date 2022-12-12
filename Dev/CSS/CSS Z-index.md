@@ -9,4 +9,4 @@
 	- sticky
 - 和 flex items
 
-如果不通过 `Z-index `
+如果不通过 `Z-index ` 指定元素的重叠顺序，默认会按照 html 代码的顺序进行覆盖。

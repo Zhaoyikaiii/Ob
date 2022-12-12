@@ -123,9 +123,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e61e0a771d3526b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS Overflow.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b714d801c2c35591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS Layout - float and clear.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "481094c5ebf01aea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/CSS/CSS Layout - float and clear.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -154,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "float",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +218,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,17 +247,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "08530b5d25a9467d",
+  "active": "481094c5ebf01aea",
   "lastOpenFiles": [
     "Dev/CSS/CSS Position.md",
+    "Dev/CSS/CSS box-sizing.md",
+    "Dev/CSS/CSS Layout - float and clear.md",
+    "Dev/CSS/CSS Overflow.md",
+    "Dev/CSS/CSS Z-index.md",
     "Dev/CSS/CSS Max-width.md",
     "Dev/CSS/CSS Display.md",
     "Dev/CSS/CSS Table.md",
     "Dev/CSS/CSS Text.md",
-    "Dev/Linux/shell.md",
-    "Dev/CSS/CSS Lists.md",
-    "Dev/Makefile/为什么需要Makefile.md",
-    "Dev/Makefile/宏.md",
-    "Dev/未命名.md"
+    "Dev/Linux/shell.md"
   ]
 }
