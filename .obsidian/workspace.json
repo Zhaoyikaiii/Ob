@@ -73,19 +73,6 @@
             }
           },
           {
-            "id": "5e11cb11b87e894a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/CSS/CSS Display.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f7875011b4330c02",
             "type": "leaf",
             "state": {
@@ -156,7 +143,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/CSS/CSS Layout - float and clear.md",
+                "file": "Dev/CSS/CSS Z-index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a1fe9bd43059318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Go语言动手写Web框架/Gee第一天 http.Handler.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98b7beb807686568",
@@ -244,19 +245,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 211.5,
+    "collapsed": true
   },
-  "active": "8c0eb6040439210b",
+  "active": "0a1fe9bd43059318",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Z-index.md",
+    "Dev/Go/包引用与依赖管理.md",
+    "Dev/CSS/CSS Layout - float and clear.md",
     "Dev/Linux/shell.md",
     "Dev/CSS/CSS Position.md",
     "Dev/CSS/CSS box-sizing.md",
-    "Dev/CSS/CSS Layout - float and clear.md",
     "Dev/CSS/CSS Overflow.md",
-    "Dev/CSS/CSS Z-index.md",
     "Dev/CSS/CSS Max-width.md",
     "Dev/CSS/CSS Display.md",
-    "Dev/CSS/CSS Table.md",
-    "Dev/CSS/CSS Text.md"
+    "Dev/CSS/CSS Table.md"
   ]
 }
