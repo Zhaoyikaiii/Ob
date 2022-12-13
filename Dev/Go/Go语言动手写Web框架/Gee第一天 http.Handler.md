@@ -147,6 +147,38 @@ type Engine struct {
 }
 
 func New() *Engine {
-	return &Engine(router: make(map[string]HandleFunc ))
+	return &Engine(router: make(map[string]HandlerFunc))
 }
+
+func (engine *Engine) addRoute(method string,pattern string,handler HandlerFunc) {
+	key := method + "-" + pattern 
+	engine.router[key] = handler
+}
+
+func (engine *Engine) GET(pattern string,handler HandlerFunc) {
+	engine.addRoute("GET",pattern,handler)
+}
+
+func (engine *Engine) POST(pattern string,handler HandlerFunc) {
+	engine.addRoute("POST",pattern,handler)
+}
+
+func (engine *Engine) Run(addr string) (err error) {
+	return http.ListenAndServe(addr,engine)
+}
+
+func (engine *Engine ServeHTTP(w http.ResponseWriter,req *http.Request) {
+	key := req.Method + "-" + req.URL.Path
+	if handler,ok := engine.router[key];ok {
+		handler(w,req)
+	} else {
+		fmt.Fprintf(w,"404 NOT FOUND : %s\n",req.URL)
+	}
+})
 ```
+
+那么 `gee.go` 就是重头戏了，我们重点介绍一些这部分的实现。
+- 首先定义了类型 `HandlerFunc`, 这是提供给框架用户的，用来定义路由映射的处理方法。我们在 `Engine` 中，添加了一张路由映射表 `router`，key 由请求方法和静态路由地址构成，例如 `GET-/`, `GET-/hello`, `POST-/hello`, 这样针对相同的路由，如果请求方法不同可以映射到不同的处理方法 (Handler), value 是由用户映射的处理方法。
+- 当用户调用 `(*Engine).GET()` 方法时，会将路由和处理方法注册到映射表 router 中，`（*Engine).Run()` 方法是对 ListenAndServe 的包装。
+- Engine 实现的 ServeHTTP 的方法的作用就是，解析请求的路径，查找路由映射表，如果查到，就执行注册的处理方法。如果查不到，就返回 `404 NOT FOUND`
+至此，整个 `Gee` 框架的原型以及出来了。实现了路由映射表，提供了用户注册静态路由的方法，包装了启动服务的函数。当然，到目前为止，我们还没有实现比 `net/http` 标准库更强大的能力，不用担心，很快就可以将动态路由，中间件等功能添加上去了。

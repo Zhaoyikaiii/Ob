@@ -562,8 +562,40 @@
     "ResponseWriter": {
       "ResponseWriter": {
         "currentFile": {
+          "count": 3,
+          "lastUpdated": 1670974048118
+        }
+      }
+    },
+    "HandleFunc": {
+      "HandleFunc": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670972192098
+        }
+      }
+    },
+    "pattern": {
+      "pattern": {
+        "currentFile": {
           "count": 2,
-          "lastUpdated": 1670972115493
+          "lastUpdated": 1670975124641
+        }
+      }
+    },
+    "Context": {
+      "Context": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670973516298
+        }
+      }
+    },
+    "Request": {
+      "Request": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670974056897
         }
       }
     }
