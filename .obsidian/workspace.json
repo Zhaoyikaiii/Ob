@@ -193,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "float",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -218,8 +218,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -247,7 +246,7 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "481094c5ebf01aea",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
     "Dev/CSS/CSS Position.md",
     "Dev/CSS/CSS box-sizing.md",
