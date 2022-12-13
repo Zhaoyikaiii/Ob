@@ -248,6 +248,7 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Linux/shell.md",
     "Dev/CSS/CSS Position.md",
     "Dev/CSS/CSS box-sizing.md",
     "Dev/CSS/CSS Layout - float and clear.md",
@@ -256,7 +257,6 @@
     "Dev/CSS/CSS Max-width.md",
     "Dev/CSS/CSS Display.md",
     "Dev/CSS/CSS Table.md",
-    "Dev/CSS/CSS Text.md",
-    "Dev/Linux/shell.md"
+    "Dev/CSS/CSS Text.md"
   ]
 }
