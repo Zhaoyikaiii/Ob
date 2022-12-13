@@ -83,4 +83,70 @@ func main() {
 
 ## Gee 框架的雏形
 
-我们
+我们接下来重新组织上面的代码，搭建出整个框架的雏形。
+最终的代码目录结构是这样的。
+```md
+gee/
+	|--gee.go
+	|--go.mod
+main.go
+go.mod
+```
+
+go. mod
+```go
+module examplte
+
+go 1.13
+
+require gee v0.0.0
+
+replace gee => /.gee
+```
+
+- 在 `go.mod` 中使用 `replace` 将 gee 指向 `/.gee`
+
+main. go
+
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+
+	"gee"
+)
+
+func main() {
+	r := gee.New()
+	r.GET("/",func(w http.ResponseWriter,req *http.Request) {
+		for k,v := range.Header {
+			fmt.Fprintf(w,"Header[%q] = %q",k,v)
+		}
+	})
+	r.Run(":9999")
+}
+```
+
+看到这里，如果使用过 `gin` 框架的话，肯定会觉得无比的亲切。`gee` 框架的设计以及 API 也参考了 `gin`。使用 `New()` 创建 gee 的实例。使用 `GET()` 方法添加路由。最后使用 `Run()` 启动 Web 服务。这里的路由，知识静态路由，不支持 `/hello/:name` 这样的动态路由，动态路由我们在下次实现。
+
+gee. go
+```go
+package gee 
+
+import (
+	"fmt"
+	"net/http"
+)
+
+type HandlerFunc func(http.ResponseWriter ,req * http.Request)
+
+type Engine struct {
+	router map[sting]HandlerFunc
+}
+
+func New() *Engine {
+	return &Engine(router: make(map[string]HandleFunc ))
+}
+```
