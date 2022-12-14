@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS Pseudo",
+      "path": "Dev/CSS/CSS Pseudo.md"
+    },
+    {
       "basename": "CSS Combinators",
       "path": "Dev/CSS/CSS Combinators.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Namespace",
       "path": "Dev/Docker/Namespace.md"
-    },
-    {
-      "basename": "调试",
-      "path": "Dev/Go/调试.md"
     }
   ],
   "omittedPaths": [],
