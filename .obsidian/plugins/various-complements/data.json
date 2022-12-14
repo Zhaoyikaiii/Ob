@@ -598,6 +598,38 @@
           "lastUpdated": 1670974056897
         }
       }
+    },
+    "inline-block": {
+      "inline-block": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670997879891
+        }
+      }
+    },
+    "padding": {
+      "padding": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670999338987
+        }
+      }
+    },
+    "descendant": {
+      "descendant": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1671000486428
+        }
+      }
+    },
+    "Selector": {
+      "Selector": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1671000567451
+        }
+      }
     }
   }
 }

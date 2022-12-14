@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS Combinators",
+      "path": "Dev/CSS/CSS Combinators.md"
+    },
+    {
+      "basename": "CSS Align",
+      "path": "Dev/CSS/CSS Align.md"
+    },
+    {
       "basename": "CSS inline-block",
       "path": "Dev/CSS/CSS inline-block.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "调试",
       "path": "Dev/Go/调试.md"
-    },
-    {
-      "basename": "手写一个Http Server",
-      "path": "Dev/Go/手写一个Http Server.md"
-    },
-    {
-      "basename": "Makefile",
-      "path": "Dev/Go/Makefile.md"
     }
   ],
   "omittedPaths": [],
