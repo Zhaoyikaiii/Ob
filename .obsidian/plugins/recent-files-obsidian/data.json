@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "01.",
+      "path": "Dev/React/01..md"
+    },
+    {
       "basename": "CSS Pseudo",
       "path": "Dev/CSS/CSS Pseudo.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "什么是操作系统",
       "path": "Dev/Linux/什么是操作系统.md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Dev/Docker/Namespace.md"
     }
   ],
   "omittedPaths": [],

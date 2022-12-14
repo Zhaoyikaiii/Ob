@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcf74be9c1e6fd65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/React/01..md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -118,8 +130,9 @@
     "width": 211.5,
     "collapsed": true
   },
-  "active": "36e6fb34470bfee7",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/CSS/CSS Pseudo.md",
     "Dev/CSS/CSS Combinators.md",
     "Dev/CSS/CSS Align.md",
     "Dev/CSS/CSS inline-block.md",
@@ -128,7 +141,6 @@
     "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md",
     "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md",
     "Dev/Go/Go基本命令.md",
-    "Dev/Go/Go语言项目.md",
-    "Dev/Go/Go语言进阶.md"
+    "Dev/Go/Go语言项目.md"
   ]
 }
