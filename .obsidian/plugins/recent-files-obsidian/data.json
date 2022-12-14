@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS inline-block",
+      "path": "Dev/CSS/CSS inline-block.md"
+    },
+    {
+      "basename": "CSS Z-index",
+      "path": "Dev/CSS/CSS Z-index.md"
+    },
+    {
+      "basename": "第二天 上下文Context",
+      "path": "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md"
+    },
+    {
+      "basename": "第三天 前缀树路由Router",
+      "path": "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md"
+    },
+    {
       "basename": "Go基本命令",
       "path": "Dev/Go/Go基本命令.md"
     },
@@ -21,20 +37,8 @@
       "path": "Dev/CSS/CSS Table.md"
     },
     {
-      "basename": "第三天 前缀树路由Router",
-      "path": "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md"
-    },
-    {
-      "basename": "第二天 上下文Context",
-      "path": "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md"
-    },
-    {
-      "basename": "Gee第一天 http.Handler",
-      "path": "Dev/Go/Go语言动手写Web框架/Gee第一天 http.Handler.md"
-    },
-    {
-      "basename": "CSS Z-index",
-      "path": "Dev/CSS/CSS Z-index.md"
+      "basename": "第一天 http.Handler",
+      "path": "Dev/Go/Go语言动手写Web框架/第一天 http.Handler.md"
     },
     {
       "basename": "包引用与依赖管理",
@@ -195,10 +199,6 @@
     {
       "basename": "Makefile",
       "path": "Dev/Go/Makefile.md"
-    },
-    {
-      "basename": "内存管理",
-      "path": "Dev/Go/内存管理.md"
     }
   ],
   "omittedPaths": [],

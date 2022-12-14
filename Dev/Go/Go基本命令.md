@@ -639,7 +639,7 @@ for v:= range ch {
 - Istio webhook controller 
 	- `func (w *WebhookCerPatcher) runWebhookController(stopChan <- chan struct{}){}`
 - 如何用：双向通道转换
-```go
+```go 
 var c = make(chan int)
 go prod(c)
 go consume(c)

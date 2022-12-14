@@ -1,0 +1,1 @@
+不同于 `display:inline`, 最大的不同在于 `display:inline-block` 允许设置元素的宽度和高度。
