@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md",
+                "file": "Dev/CSS/CSS Table.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba5afb2f121fb785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Go基本命令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -104,17 +117,17 @@
     "width": 211.5,
     "collapsed": true
   },
-  "active": "84a11e0c6edec3cd",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Go/Go语言项目.md",
+    "Dev/Go/Go语言进阶.md",
+    "Dev/CSS/CSS Selector.md",
+    "Dev/CSS/CSS Table.md",
+    "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md",
     "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md",
     "Dev/Go/Go语言动手写Web框架/Gee第一天 http.Handler.md",
     "Dev/CSS/CSS Z-index.md",
     "Dev/Go/包引用与依赖管理.md",
-    "Dev/CSS/CSS Layout - float and clear.md",
-    "Dev/Linux/shell.md",
-    "Dev/CSS/CSS Position.md",
-    "Dev/CSS/CSS box-sizing.md",
-    "Dev/CSS/CSS Overflow.md",
-    "Dev/CSS/CSS Max-width.md"
+    "Dev/CSS/CSS Layout - float and clear.md"
   ]
 }

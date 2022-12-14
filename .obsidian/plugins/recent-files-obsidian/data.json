@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Go基本命令",
+      "path": "Dev/Go/Go基本命令.md"
+    },
+    {
+      "basename": "Go语言项目",
+      "path": "Dev/Go/Go语言项目.md"
+    },
+    {
+      "basename": "Go语言进阶",
+      "path": "Dev/Go/Go语言进阶.md"
+    },
+    {
+      "basename": "CSS Selector",
+      "path": "Dev/CSS/CSS Selector.md"
+    },
+    {
+      "basename": "CSS Table",
+      "path": "Dev/CSS/CSS Table.md"
+    },
+    {
       "basename": "第三天 前缀树路由Router",
       "path": "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md"
     },
@@ -47,10 +67,6 @@
     {
       "basename": "CSS Display",
       "path": "Dev/CSS/CSS Display.md"
-    },
-    {
-      "basename": "CSS Table",
-      "path": "Dev/CSS/CSS Table.md"
     },
     {
       "basename": "CSS Text",
@@ -125,14 +141,6 @@
       "path": "Dev/Linux/文件系统.md"
     },
     {
-      "basename": "Go语言进阶",
-      "path": "Dev/Go/Go语言进阶.md"
-    },
-    {
-      "basename": "Go基本命令",
-      "path": "Dev/Go/Go基本命令.md"
-    },
-    {
       "basename": "搜索数据",
       "path": "Dev/Linux/搜索数据.md"
     },
@@ -155,10 +163,6 @@
     {
       "basename": "第1章 计算机网络和因特网",
       "path": "Dev/计算机网络/第1章 计算机网络和因特网.md"
-    },
-    {
-      "basename": "Go语言项目",
-      "path": "Dev/Go/Go语言项目.md"
     },
     {
       "basename": "RBAC",
@@ -195,10 +199,6 @@
     {
       "basename": "内存管理",
       "path": "Dev/Go/内存管理.md"
-    },
-    {
-      "basename": "线程调度",
-      "path": "Dev/Go/线程调度.md"
     }
   ],
   "omittedPaths": [],
