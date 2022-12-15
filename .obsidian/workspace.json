@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/React/01..md",
+                "file": "Dev/CSS/CSS Pseudo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,15 +132,15 @@
   },
   "active": "8c0eb6040439210b",
   "lastOpenFiles": [
-    "Dev/CSS/CSS Pseudo.md",
+    "Dev/CSS/CSS Position.md",
+    "Dev/React/01..md",
     "Dev/CSS/CSS Combinators.md",
+    "Dev/CSS/CSS Pseudo.md",
     "Dev/CSS/CSS Align.md",
     "Dev/CSS/CSS inline-block.md",
     "Dev/CSS/CSS Z-index.md",
     "Daily/未命名看板.md",
     "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md",
-    "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md",
-    "Dev/Go/Go基本命令.md",
-    "Dev/Go/Go语言项目.md"
+    "Dev/Go/Go语言动手写Web框架/第三天 前缀树路由Router.md"
   ]
 }
