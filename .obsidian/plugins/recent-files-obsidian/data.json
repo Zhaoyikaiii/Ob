@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS FlexBox",
+      "path": "Dev/CSS/CSS FlexBox.md"
+    },
+    {
       "basename": "CSS Combinators",
       "path": "Dev/CSS/CSS Combinators.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Monorepo",
       "path": "Dev/前端工程化/Monorepo.md"
-    },
-    {
-      "basename": "什么是操作系统",
-      "path": "Dev/Linux/什么是操作系统.md"
     }
   ],
   "omittedPaths": [],
