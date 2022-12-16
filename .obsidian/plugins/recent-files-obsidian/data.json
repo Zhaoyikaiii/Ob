@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS Combinators",
+      "path": "Dev/CSS/CSS Combinators.md"
+    },
+    {
       "basename": "CSS Pseudo",
       "path": "Dev/CSS/CSS Pseudo.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "01.",
       "path": "Dev/React/01..md"
-    },
-    {
-      "basename": "CSS Combinators",
-      "path": "Dev/CSS/CSS Combinators.md"
     },
     {
       "basename": "CSS Align",
