@@ -638,6 +638,14 @@
           "lastUpdated": 1671153925109
         }
       }
+    },
+    "context": {
+      "context": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1671257383575
+        }
+      }
     }
   }
 }

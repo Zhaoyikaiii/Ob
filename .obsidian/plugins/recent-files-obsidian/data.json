@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Go Context",
+      "path": "Dev/Go/Go Context.md"
+    },
+    {
       "basename": "CSS FlexBox",
       "path": "Dev/CSS/CSS FlexBox.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "man",
       "path": "Dev/Linux/man.md"
-    },
-    {
-      "basename": "Monorepo",
-      "path": "Dev/前端工程化/Monorepo.md"
     }
   ],
   "omittedPaths": [],
