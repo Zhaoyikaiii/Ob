@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Go/Go Context.md",
+                "file": "Dev/CSS/CSS FlexBox.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -157,8 +156,9 @@
     "width": 211.5,
     "collapsed": true
   },
-  "active": "de6f8afd5b348bf1",
+  "active": "8c0eb6040439210b",
   "lastOpenFiles": [
+    "Dev/Go/Go Context.md",
     "Dev/CSS/CSS FlexBox.md",
     "Dev/CSS/CSS Combinators.md",
     "Dev/CSS/CSS Position.md",
@@ -167,7 +167,6 @@
     "Dev/CSS/CSS Align.md",
     "Dev/CSS/CSS inline-block.md",
     "Dev/CSS/CSS Z-index.md",
-    "Daily/未命名看板.md",
-    "Dev/Go/Go语言动手写Web框架/第二天 上下文Context.md"
+    "Daily/未命名看板.md"
   ]
 }

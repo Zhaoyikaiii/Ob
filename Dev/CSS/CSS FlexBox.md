@@ -39,3 +39,4 @@ It's interesting… With `align-items`, we have _some_ of the same options as
 
 `align-self` is applied to the _child element_, not the container. It allows us to change the alignment of a specific child along the cross axis:
 ![[Pasted image 20221216093018.png]]
+`align-self` has all the same values as `align-items`.
