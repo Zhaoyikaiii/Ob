@@ -29,9 +29,22 @@
                 "currentVersion": "1.1.8"
               }
             }
+          },
+          {
+            "id": "d6681f2657364174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Go的基本语法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "98b7beb807686568",
@@ -127,17 +139,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6d16d2d232a8a04b",
+  "active": "d6681f2657364174",
   "lastOpenFiles": [
+    "Dev/Go/Go环境配置.md",
+    "Dev/Go/Go语言进阶.md",
+    "Dev/Go/Go语言项目.md",
     "Dev/计算机网络/第1章 计算机网络和因特网.md",
     "Dev/Go/Go Context.md",
     "Dev/CSS/CSS Combinators.md",
     "Dev/CSS/CSS FlexBox.md",
     "Dev/CSS/CSS Position.md",
     "Dev/React/01..md",
-    "Dev/CSS/CSS Pseudo.md",
-    "Dev/CSS/CSS Align.md",
-    "Dev/CSS/CSS inline-block.md",
-    "Dev/CSS/CSS Z-index.md"
+    "Dev/CSS/CSS Pseudo.md"
   ]
 }

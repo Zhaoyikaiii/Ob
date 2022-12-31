@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Go的基本语法",
+      "path": "Dev/Go/Go的基本语法.md"
+    },
+    {
+      "basename": "Go环境配置",
+      "path": "Dev/Go/Go环境配置.md"
+    },
+    {
+      "basename": "Go语言进阶",
+      "path": "Dev/Go/Go语言进阶.md"
+    },
+    {
+      "basename": "Go语言项目",
+      "path": "Dev/Go/Go语言项目.md"
+    },
+    {
       "basename": "CSS FlexBox",
       "path": "Dev/CSS/CSS FlexBox.md"
     },
@@ -51,14 +67,6 @@
     {
       "basename": "Go基本命令",
       "path": "Dev/Go/Go基本命令.md"
-    },
-    {
-      "basename": "Go语言项目",
-      "path": "Dev/Go/Go语言项目.md"
-    },
-    {
-      "basename": "Go语言进阶",
-      "path": "Dev/Go/Go语言进阶.md"
     },
     {
       "basename": "CSS Selector",
@@ -191,14 +199,6 @@
     {
       "basename": "项目结构",
       "path": "Dev/Go/gFrame/项目结构.md"
-    },
-    {
-      "basename": "RBAC",
-      "path": "Dev/RBAC.md"
-    },
-    {
-      "basename": "man",
-      "path": "Dev/Linux/man.md"
     }
   ],
   "omittedPaths": [],
