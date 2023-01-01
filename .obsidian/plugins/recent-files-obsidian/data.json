@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Go的基本语法",
-      "path": "Dev/Go/Go的基本语法.md"
+      "basename": "Go Error",
+      "path": "Dev/Go/Go Error.md"
     },
     {
-      "basename": "Go环境配置",
-      "path": "Dev/Go/Go环境配置.md"
+      "basename": "Go语言项目",
+      "path": "Dev/Go/Go语言项目.md"
     },
     {
       "basename": "Go语言进阶",
       "path": "Dev/Go/Go语言进阶.md"
     },
     {
-      "basename": "Go语言项目",
-      "path": "Dev/Go/Go语言项目.md"
+      "basename": "Go的基本语法",
+      "path": "Dev/Go/Go的基本语法.md"
+    },
+    {
+      "basename": "Go环境配置",
+      "path": "Dev/Go/Go环境配置.md"
     },
     {
       "basename": "CSS FlexBox",
@@ -195,10 +199,6 @@
     {
       "basename": "Docker",
       "path": "Dev/Docker/Docker.md"
-    },
-    {
-      "basename": "项目结构",
-      "path": "Dev/Go/gFrame/项目结构.md"
     }
   ],
   "omittedPaths": [],
