@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "为什么需要Makefile",
+      "path": "Dev/Makefile/为什么需要Makefile.md"
+    },
+    {
       "basename": "Go Error",
       "path": "Dev/Go/Go Error.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "CSS Lists",
       "path": "Dev/CSS/CSS Lists.md"
-    },
-    {
-      "basename": "为什么需要Makefile",
-      "path": "Dev/Makefile/为什么需要Makefile.md"
     },
     {
       "basename": "宏",
