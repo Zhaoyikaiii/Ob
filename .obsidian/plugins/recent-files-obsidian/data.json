@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS FlexBox",
+      "path": "Dev/CSS/CSS FlexBox.md"
+    },
+    {
       "basename": "为什么需要Makefile",
       "path": "Dev/Makefile/为什么需要Makefile.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Go环境配置",
       "path": "Dev/Go/Go环境配置.md"
-    },
-    {
-      "basename": "CSS FlexBox",
-      "path": "Dev/CSS/CSS FlexBox.md"
     },
     {
       "basename": "第1章 计算机网络和因特网",
